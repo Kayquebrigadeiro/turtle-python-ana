@@ -35,3 +35,8 @@ This repository is a collection of [Python](https://www.python.org/) 🐍 script
 > Input: *resources/rosas.json*
 <img src="https://github.com/user-attachments/assets/7a3a57cf-0f11-4217-95d9-305922b760b4" width="250" height="250"/>
 
+
+### • [07](https://www.instagram.com/p/DLlgdbygjo0/):
+
+<img src="https://github.com/user-attachments/assets/c4fd19e0-e51e-4553-8878-cb7282e3f0cd" width="250" height="250"/>
+
