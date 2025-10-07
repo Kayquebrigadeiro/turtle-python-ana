@@ -40,3 +40,7 @@ This repository is a collection of [Python](https://www.python.org/) 🐍 script
 
 <img src="https://github.com/user-attachments/assets/c4fd19e0-e51e-4553-8878-cb7282e3f0cd" width="250" height="250"/>
 
+
+### • [08](https://github.com/Sandreke/turtle-python/blob/main/08.py):
+
+<img src="https://github.com/user-attachments/assets/56e8a85a-9aa5-4711-b2fc-ed7a06615cb1" width="250" height="250"/>
