@@ -33,14 +33,14 @@ def circulo(x, y):
     color('black'), fillcolor('#FFA216')
     begin_fill(), circle(3), end_fill()
 
-def dibujar_M(x, y):
-    pos_m = [(x,y), (x, y+4), (x, y+8), (x, y+12), (x, y+16),
+def dibujar_N(x, y):
+    pos_n = [(x, y), (x, y+4), (x, y+8), (x, y+12), (x, y+16),
              (x, y+20), (x, y+24), (x+3, y+21), (x+6, y+18),
-             (x+9, y+15), (x+12, y+12), (x+15, y+15), (x+18, y+18),
-             (x+21, y+21), (x+24, y+24), (x+24, y+20), (x+24, y+16),
-             (x+24, y+12), (x+24, y+8), (x+24, y+4), (x+24, y)]
+             (x+9, y+15), (x+12, y+12), (x+15, y+9), (x+18, y+6),
+             (x+21, y+3), (x+24, y), (x+24, y+4), (x+24, y+8),
+             (x+24, y+12), (x+24, y+16), (x+24, y+20), (x+24, y+24)]
 
-    for pos in pos_m:
+    for pos in pos_n:
         circulo(*pos)
 
 def dibujar_A(x, y):
@@ -52,9 +52,6 @@ def dibujar_A(x, y):
     for pos in pos_a:
         circulo(*pos)
 
-dibujar_M(-28, 4), dibujar_A(10, 4)
-dibujar_M(-28, -30), dibujar_A(10, -30)
-circulo(32, -10), circulo(34, -6)
-
+dibujar_A(-36, -10), dibujar_N(-6, -10), dibujar_A(24, -10)
 hideturtle()
 done()
